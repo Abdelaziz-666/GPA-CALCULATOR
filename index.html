@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="h1"><h1>GPA Calculator</h1></div>
+<div class="input">
+<div class="subject-name" ><input id="subjectName" type="text" placeholder="Subject Name"></div>
+<div class="credit-hours"><input id="creditHours" type="number" placeholder="Credit Hours"></div>
+<div class="grade"><input id="grade" type="text" placeholder="Grade" ></div>
+
+</div>
+
+<div class="button">
+<div class="addSubject"><button   id="addSubject" onclick ="create() ">+</button></div>
+<div class="deleteSub"><button   id="deleteSub" onclick="deletedata()">Delete</button></div>
+<div class="clear"><button  id="clear" onclick="clearAllData()">CLEAR </button></div>
+<div class="calculate"><button id="calculate" onclick="calculateGPA()">CALCULATE</button></div>
+
+</div>
+
+<div class="grades">
+
+    <table id="table">
+        <tbody>        <tr>
+            <th>Subject Name</th>
+            <th>Credit Hours</th>
+            <th>Grade</th>
+        </tr>   </tbody>
+
+        
+    </table>
+</div>
+
+
+<div class="small" ><small  id="small">GPA: 0.00</small></div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,437 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-image: linear-gradient( #ff01ff50, darkmagenta );
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color:  hwb(0 38% 61%);
+}
+
+button{
+    border-radius: 10px;
+    background: hsl(0, 3%, 82%);
+    text-align: center;
+    font-size: medium;
+    font-weight: 550;
+    
+}
+#addSubject{
+    position: absolute;
+    border-radius:50%;
+    font-weight: bold;
+
+}
+#deleteSub{
+    position: absolute;
+}
+
+
+#clear{
+    position: absolute;
+}
+
+#calculate{
+    position: absolute;
+}
+input{
+    border-radius: 10px;
+    background: hsl(0, 3%, 82%);
+
+    
+}
+
+.grades{
+    text-transform: capitalize;
+    position: absolute;
+    font-weight: bold;
+}
+
+#small{
+    position: absolute;
+    font-weight: bolder;
+    font-size: medium;
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .container{
+        height: 650px;
+    }
+
+
+    button{
+        margin: 10px 0px 0px 10%;
+        padding: 7px;
+        font-weight: 550;
+    
+    }
+    #addSubject{
+        top: 49%;
+        width: 50px;
+        height:50px;
+
+    }
+    #deleteSub{
+        top: 50%;
+        left: 9%;
+    }
+
+
+    #clear{
+    top: 60%;
+    left: 4%;
+    }
+
+    #calculate{
+    top: 70%;
+    left: 37%;
+
+    }
+    input{
+        width: 20%;
+        height: 30px;
+        margin: 20px 0 0 30%;
+
+    
+    }
+    #subjectName{
+        margin-top:20%;
+    }
+
+    .grades{
+        right: 6%;
+        top: 30%;
+    }
+
+    .grades th{
+        padding: 10px 0px 10px 70px;
+    }
+
+    .grades td{
+        padding: 20px 0px 0px 90px;
+    }
+    #small{
+        left: 48.8%;
+        top: 80%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+
+    button{
+        margin: 10px 0px 0px 10%;
+        padding: 7px;
+        font-weight: 550;
+    
+    }
+    #addSubject{
+        top: 11%;
+        width: 40px;
+        height:40px;
+        left: -0.5%;
+        
+
+    }
+    #deleteSub{
+        top: 18%;
+        left: -3.5%;
+        width: 15%;
+        min-width: fit-content;
+        font-weight:lighter ;
+    }
+
+
+    #clear{
+    top: 81%;
+    left: -5%;
+    width: 20%;
+    min-width: fit-content;
+    }
+
+    #calculate{
+    top: 81%;
+    left: 25%;
+    width: 25%;
+    min-width: fit-content;
+
+    }
+    input{
+        width: 30%;
+        height: 30px;
+        margin: 15px 0 0 32px;
+        position: relative; 
+        top: 30px;
+        left:20%;
+        min-width: 88px;
+    }
+
+
+    .grades{
+        right: 6%;
+        top: 30%;
+    }
+
+    .grades th{
+        padding: 20% 0 0 8px;
+        font-size: small;
+        position: relative;
+        right: -8.5%;
+
+        
+
+    }
+
+    .grades td{
+        padding: 9px 0px 0px 20px;
+        font-size: small;
+        position: relative;
+        right: -11%;
+    }
+    #small{
+        left: 39%;
+        top: 90%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+    .container{
+        height: 650px;
+    }
+
+
+    button{
+        margin: 10px 0px 0px 10%;
+        padding: 7px;
+        font-weight: 550;
+    
+    }
+    #addSubject{
+        top: 8%;
+        width: 50px;
+        height:50px;
+        left: 3%;
+
+    }
+    #deleteSub{
+        top: 14%;
+        left: 8%;
+    }
+
+
+    #clear{
+    top: 14%;
+    left: -5%;
+    }
+
+    #calculate{
+    top: 70%;
+    left: 32%;
+
+    }
+    input{
+        width: 27%;
+        height: 30px;
+        margin: 20px 0 0 35%;
+
+    
+    }
+    #subjectName{
+        margin-top:7%;
+    }
+
+    .grades{
+        right: 6%;
+        top: 30%;
+    }
+
+    .grades th{
+        padding: 10px 0px 10px 70px;
+    }
+
+    .grades td{
+        padding: 20px 0px 0px 90px;
+    }
+    #small{
+        left: 44.5%;
+        top: 76%;
+    }
+}
+
+
+
+@media screen and (min-width: 1201px) {
+    .container{
+        height: 650px;
+    }
+
+
+    button{
+        margin: 10px 0px 0px 10%;
+        padding: 7px;
+        font-weight: 550;
+    
+    }
+    #addSubject{
+        top: 34%;
+        width: 50px;
+        height:50px;
+        left: 5%;
+
+    }
+    #deleteSub{
+        top: 44%;
+        left: 9%;
+    }
+
+
+    #clear{
+    top: 44%;
+    left: 0.5%;
+    }
+
+    #calculate{
+    top: 70%;
+    left: 37%;
+
+    }
+    input{
+        width: 20%;
+        height: 30px;
+        margin: 20px 0 0 30%;
+
+    
+    }
+    #subjectName{
+        margin-top:14%;
+    }
+
+    .grades{
+        right: 6%;
+        top: 30%;
+    }
+
+    .grades th{
+        padding: 10px 0px 10px 70px;
+    }
+
+    .grades td{
+        padding: 20px 0px 0px 90px;
+    }
+    #small{
+        left: 48.8%;
+        top: 80%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) and (max-height:600){
+
+
+    button{
+        margin: 10px 0px 0px 10%;
+        padding: 7px;
+        font-weight: 550;
+        
+    
+    }
+    #addSubject{
+        top: 11%;
+        width: 35px;
+        height:33px;
+        left: -0.5%;
+        
+
+    }
+    #deleteSub{
+        top: 19%;
+        left: -3.5%;
+        width: 10%;
+        min-width: fit-content;
+        font-weight:lighter ;
+    }
+
+
+    #clear{
+    top: 81%;
+    left: -5%;
+    width: 20%;
+    min-width: fit-content;
+    }
+
+    #calculate{
+    top: 81%;
+    left: 25%;
+    width: 25%;
+    min-width: fit-content;
+
+    }
+    input{
+        width: 30%;
+        height: 22px;
+        margin: 12px 0 0 32px;
+        position: relative; 
+        top: 3px;
+        left: 25%;
+        min-width: 88px;
+    }
+
+
+    .grades{
+        right: 6%;
+        top: 30%;
+    }
+
+    .grades th{
+        padding: 20% 0 0 8px;
+        font-size: small;
+        position: relative;
+        right: -8.5%;
+
+        
+
+    }
+
+    .grades td{
+        padding: 9px 0px 0px 20px;
+        font-size: small;
+        position: relative;
+        right: -11%;
+    }
+    #small{
+        left: 41%;
+        top: 92%;
+    }
+}
+
+
+
+
+
+
+
