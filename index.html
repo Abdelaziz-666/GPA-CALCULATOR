@@ -14,7 +14,24 @@
 <div class="input">
 <div class="subject-name" ><input id="subjectName" type="text" placeholder="Subject Name"></div>
 <div class="credit-hours"><input id="creditHours" type="number" placeholder="Credit Hours"></div>
-<div class="grade"><input id="grade" type="text" placeholder="Grade" ></div>
+<form>
+    <div class="grade"><input id="grade" list="grades" type="text" placeholder="Grade"  required></div>
+    <datalist id="grades">
+    <option value="A+">
+    <option value="A-">
+    <option value="A">
+    <option value="B+">
+    <option value="B">
+    <option value="B-">
+    <option value="C+">
+    <option value="C">
+    <option value="C-">
+    <option value="D+">
+    <option value="D">
+    <option value="D-">
+    <option value="F">
+    </datalist>
+</form>
 
 </div>
 
